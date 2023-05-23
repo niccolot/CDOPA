@@ -2,7 +2,7 @@ import numpy as np
 import pydicom
 import os
 from tensorflow import keras
-import tensroflow_addons as tfa
+import tensorflow_addons as tfa
 import uuid # for generating guid code 
 
 threshold = 7000 #intensity of pixel to ignore
